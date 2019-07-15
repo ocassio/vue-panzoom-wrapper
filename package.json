@@ -1,0 +1,32 @@
+{
+  "name": "vue-panzoom-wrapper",
+  "version": "0.1.0",
+  "description": "Vue wrapper component for panzoom lib",
+  "private": false,
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "vue serve src/components/PanzoomWrapper.vue",
+    "build": "bili"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "test"
+  },
+  "keywords": [
+    "vue",
+    "panzoom"
+  ],
+  "author": "Alexander Ionov",
+  "license": "ISC",
+  "devDependencies": {
+    "bili": "^4.8.0",
+    "rollup-plugin-vue": "^5.0.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "panzoom": "^8.1.1"
+  }
+}
